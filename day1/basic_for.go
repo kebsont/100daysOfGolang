@@ -20,10 +20,9 @@ func main() {
 	}
 
 	for i := 0; i <= 5; i++ {
-		fmt.Println(i)
 		if i%2 == 0 {
 			continue
 		}
-		fmt.Println("I'll be printed")
+		fmt.Println(i)
 	}
 }
